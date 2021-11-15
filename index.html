@@ -102,7 +102,7 @@
       </div>
 
       <br>
-
+      <!--dropdown menu-->
       <div class="dropdown is-hoverable">
         <div class="dropdown-trigger">
           <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
@@ -122,6 +122,18 @@
             </a>
           </div>
         </div>
+
+        <!--ruang komen-->
+        <div class="column">
+          <form method='post'>
+          Comments:<br/>
+          <textarea name='comments'id='comments'>
+          </textarea><br/>
+          <input type='hidden'name='articleid'
+          id='articleid'value='<? echo $_GET["id";?>'/>
+          <input type='submit'value='Hantar'/>	
+        </div>
+
       </div>
 
     </center>
